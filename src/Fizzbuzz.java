@@ -8,8 +8,9 @@ import java.util.*;
 
 public class Fizzbuzz {
 
-    public List<String> fizzBuzz(int n) {
+    public  List<String> fizzBuzz(int n) {
 
+        System.out.println("hello");
         List result = new ArrayList();
 
         for(int i = 1; i <= n; i++){
