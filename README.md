@@ -28,7 +28,8 @@ I tried my best to provide helpful comments throughout my code.
 * [x] ReverseInteger.java
 * [x] SubsetSum.java
 * [x] TwoSum.java
-* [x] 3Sum.java
+* [x] ThreeSum.java
+* [x] FourSum.java
 
 ## Notes
 
