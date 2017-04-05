@@ -2,6 +2,12 @@
  * Created by test on 3/13/17.
  *  Problem Number 334
  *  Given an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.
+ *  Assume we found one number A and another number B that is larger than A. If we could find a third number C
+ *  that is larger than B, we can return a true. So the problem becomes how to update A and B to make them ready for C
+ *  to be discovered.
+
+ Now the process becomes simple and clear, keep updating A to be the minimum value ever visited and keep B being the smallest
+ value that is larger than A. Once C > B is encountered, return true;
  */
 public class IncreasingTripletSubsequence {
 

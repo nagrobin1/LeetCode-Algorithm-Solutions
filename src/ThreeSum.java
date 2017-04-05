@@ -26,6 +26,7 @@ public class ThreeSum {
         // Transfer all the triplets we found to an arrayList
         ArrayList<List<Integer>> triplets = new ArrayList<>();
 
+
         // This is problem specified SUM we want to find
         // such that a + b + c = SUM
         int SUM = 0;
@@ -82,6 +83,8 @@ public class ThreeSum {
         // Print m
         int [] test = {-1, 0, 1, 2, -1, -4};
         System.out.println(threeSum(test));
+
+
     }
 }
 
