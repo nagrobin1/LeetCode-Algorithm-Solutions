@@ -23,9 +23,8 @@ public class ThreeSum {
 
     public static List<List<Integer>> threeSum(int[] nums) {
 
-        // Transfer all the triplets we found to an arrayList
+        // Generic Container Object
         ArrayList<List<Integer>> triplets = new ArrayList<>();
-
 
         // This is problem specified SUM we want to find
         // such that a + b + c = SUM
